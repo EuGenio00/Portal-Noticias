@@ -1,0 +1,29 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  background: #F4F4FF;
+}
+
+.app-root {
+  max-width: 1360px;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media (max-width: 600px){
+  .app-root{
+    flex-direction: column;
+    gap: 30px;
+  }
+}
